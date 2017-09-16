@@ -1,0 +1,55 @@
+---
+title: "Homework 1"
+author: "DJames"
+date: "September 15, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## STAT 545
+
+This is a link to the **STAT 545 class page:** <http://stat545.com/>. Here is a [link to the page](http://stat545.com/) embedded within a sentence.
+
+## Homework 1
+
+This is the *repository of Dana*, for HW 1. 
+
+* Dana is a PhD student in IRES.
+* She studies food systems sustainability.
+* She is enrolled in STAT 545 because she wants to use R to help her analyze spatial data for her dissertation.
+* She is from Pennsylvania, but moved to Vancouver one year ago.
+    + She never wants to leave BC.
+
+> "*BC is the best place on earth*" - Dana
+
+![Image source](http://res.cloudinary.com/simpleview/image/upload/v1486505969/clients/vancouverbc/Aerial_Sunset_Vancouver_d3_copy_1bb86ed0-1edc-4cda-841d-0b033ca0bb72.jpg)(http://res.cloudinary.com/simpleview/image/upload/v1486505969/clients/vancouverbc/Aerial_Sunset_Vancouver_d3_copy_1bb86ed0-1edc-4cda-841d-0b033ca0bb72.jpg)
+
+### Including Tables
+**Gulf Islands**  | **Dana's Ranking**
+-------------- | -------------
+Salt Spring | 1
+Lasqueti | 3
+Pender | 2
+
+### Including Plots
+
+Here is a plot:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+### Including Chunks
+```{r}
+dim(iris) 
+```
+
+The above code chunk was sourced from [this cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf).
+
+#Concluding Thoughts
+I incorporated all of these changes to this README.md file by editing in RMarkdown. I pulled, edited locally, saved, committed, and pushed to github.com.
+
+It was super helpful to have Jenny's walkthrough for this assignment, along with the raw code. I relied on it a lot. I also did my own Googling to find other helpful cheatsheets and tips for coding. In particular, I was having trouble creating a bulleted list, which I remembered as being very basic and easy in class. The means used by Jenny (which Vincenzo also used in class) weren't working for me for some reason. I found a different suggestion to use an asterisk and plus signs, and that seemed to work OK.
