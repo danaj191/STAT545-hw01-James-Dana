@@ -1,0 +1,22 @@
+---
+title: "Gapminder"
+author: "DJames"
+date: "September 15, 2017"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+library(gapminder)
+library(tidyverse)
+
+gapminder
+
+glimpse(gapminder)
+summary(gapminder)
+
+plot(lifeExp ~ year, gapminder)
+
+gapminder$country
