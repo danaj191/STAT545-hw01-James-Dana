@@ -1,14 +1,3 @@
----
-title: "Homework 1"
-author: "DJames"
-date: "September 15, 2017"
-output: html_document
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 ## STAT 545
 
 This is a link to the **STAT 545 class page:** <http://stat545.com/>. Here is a [link to the page](http://stat545.com/) embedded within a sentence.
